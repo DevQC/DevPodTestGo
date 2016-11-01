@@ -20,19 +20,19 @@ pod lib lint ProductName.podspec
 
 pod trunk register xxx@xx.com '名称' --description='提交描述'
 
-4：检查账号是否创建成功
+7：检查账号是否创建成功
 
 pod trunk me
 
-5：检测文件格式的有效性
+8：检测文件格式的有效性
 
 pod spec lint --allow-warnings
 
-6：提交上传
+9：提交上传
 
 pod trunk push ProductName.podspec --allow-warnings
 
-7：验证是否上传成功
+10：验证是否上传成功
 
 pod search ProductName
 
