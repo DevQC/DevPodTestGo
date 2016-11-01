@@ -8,7 +8,7 @@
 
 3:将要提交的文件放在本地仓库中
 
-4:创建podspec文件
+4:创建podspec文件并且编辑podspec文件（按模板填写自己项目的资料）然后在github上面release版本
 
 pod spec create ProductName
 
